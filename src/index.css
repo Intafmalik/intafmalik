@@ -1,0 +1,68 @@
+ @tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  --primary-color: red;
+  --secondary-color:yellow;
+}
+
+[data-theme="red"] {
+  --primary-color: red;
+  --secondary-color: #00ff00;
+}
+[data-theme="blue"] {
+  --primary-color: blue;
+  --secondary-color: purple;
+}
+[data-theme="green"] {
+  --primary-color: rgb(0, 255, 0);
+  --secondary-color: blue;
+}
+[data-theme="purple"] {
+  --primary-color: hsl(298, 100%, 50%);
+  --secondary-color: blue;
+}
+[data-theme="aqua"] {
+  --primary-color: hsl(184, 100%, 50%);
+  --secondary-color: blue;
+}
+[data-theme="yellow"] {
+  --primary-color: rgb(251, 255, 0);
+  --secondary-color: blue;
+}
+.text-primaryColor {
+  color: var(--primary-color);
+}
+.bg-primaryColor {
+  background-color: var(--primary-color);
+}
+.borderPrimaryColor{
+  border-color: var(--primary-color);
+}
+.hover\:border-primary-color:hover{
+  border-color: var(--primary-color);  
+}
+.hover\:text-primary-color:hover{
+  color: var(--primary-color);  
+}
+@layer utilities {
+  .hover\:dark\:text-primary-color:hover {
+    color: var(--primary-color);
+  }
+}
+@layer components {
+  .resumeLi {
+    @apply w-full h-20 bg-bgblack50 hover:bg-opacity-70 dark:bg-bgBlack dark:bg-opacity-25 text-xl dark:text-gray-300 text-textblack900 flex justify-center items-center cursor-pointer dark:hover:bg-opacity-40 duration-300  border-[1px] rounded-none;
+  }
+  .bgOpacity {
+    @apply bg-bgblack50 dark:bg-bgBlack dark:bg-opacity-40;
+  }
+  .linkBtn {
+    @apply dark:text-textWhite hover:text-primary-color hover:dark:text-primary-color text-textblack900  hover:scale-125 ease-in-out duration-300;
+  }
+  .button {
+    @apply w-max p-2 outline-none border hover:border-primary-color text-center bg-skillBackground text-white rounded-xl text-xl font-semibold  hover:scale-105 ease-in-out duration-300;
+  }
+}
+
+

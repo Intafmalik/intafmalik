@@ -1,0 +1,30 @@
+.imageDiv{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background: linear-gradient(circle, #05263c, #000d1a);
+}
+.imageDiv::before{
+    content: "";
+    height:370px;
+    width: 370px;
+    border-radius: 50%;
+    position: absolute;
+    background: linear-gradient(#00d9ff, #ee00ff);
+    box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.imageDiv img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+    z-index: 2;
+}
