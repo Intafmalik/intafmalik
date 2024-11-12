@@ -39,6 +39,18 @@
 .borderPrimaryColor{
   border-color: var(--primary-color);
 }
+.border-b-primaryColor{
+  border-bottom: var(--primary-color);
+}
+.border-r-primaryColor{
+  border-right: var(--primary-color);
+}
+.border-t-primaryColor{
+  border-top: var(--primary-color);
+}
+.border-l-primaryColor{
+  border-left: var(--primary-color);
+}
 .hover\:border-primary-color:hover{
   border-color: var(--primary-color);  
 }

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { FaGithub, FaLinkedin, FaFacebookSquare, BsInstagram, FaTelegram, FaNodeJs, DiMongodb, FaReact, RiTailwindCssFill, MdLightMode, MdDarkMode, FaCog, FcSettings } from "../icons/icon"
+import { FaGithub, FaLinkedin, FaFacebookSquare, BsInstagram, FaTelegram, FaNodeJs, DiMongodb, FaReact, RiTailwindCssFill, MdLightMode, MdDarkMode, FaCog,FcSettings } from "../icons/icon"
 import { portFolio } from "../imagess/images";
 import { ReactTyped } from "react-typed";
 import { Link } from 'react-scroll';
@@ -135,23 +135,23 @@ const Home = () => {
 
                             <div className="w-full flex md:flex-row flex-col md:gap-1 gap-3 items-center justify-around p-2 ">
 
-                                <Link
-                                    activeClass="text-primaryColor"
-                                    to={"Resume"}
-                                    spy="true"
-                                    offset={-70}
-                                    onSetActive={(id) => console.log(`${id} is active`)}
-                                    smooth={true}
-                                    duration={400}
-                                // delay={200}
-                                >
-                                    <button
-                                        className="button">
-                                        Check Resume
-                                    </button>
+                            <Link
+                                            activeClass="text-primaryColor"
+                                            to={"Resume"}
+                                            spy="true"
+                                            offset={-70}
+                                            onSetActive={(id) => console.log(`${id} is active`)}
+                                            smooth={true}
+                                            duration={400}
+                                        // delay={200}
+                                        >
+                                             <button
+                                 className="button">
+                                    Check Resume
+                                </button>
 
 
-                                </Link>
+                                        </Link>
                                 {/* <button
                                  className="button">
                                     Check Resume
@@ -175,17 +175,16 @@ const Home = () => {
 
                     {/* images  */}
 
+                    
 
+                    <div className=" w-full flex  md:w-2/5 md:mt-2  mt-12 -ml-2 ">
 
-                    {/* <div className=" w-full flex  md:w-2/5 md:mt-2  mt-10 -ml-2 ">
-
-                        <div className="imageDiv md:mt-10 md:ml-7">
+                        {/* <div className="imageDiv md:mt-10 md:ml-7">
                             <img src={portFolio} alt="PP img" className="brightness-50 rounded-full hover:brightness-100 transition focus:brightness-100 active:brightness-100 ease-in-out duration-300" />
 
                         </div> */}
 
 
-                    <div className=" w-full flex  md:w-2/5 md:mt-2  mt-12 -ml-2 ">
                         <div className="imageDiv md:mt-10 md:ml-7 ">
                             <div className="flex items-center justify-center h-full relative ">
                                 <div className="absolute h-[5rem] w-[5rem] left-8 -top-10 md:left-2  md:-top-3 border-[10px] border-t-primaryColor border-l-primaryColor border-r-0 border-b-0"></div>
@@ -195,21 +194,9 @@ const Home = () => {
 
                         </div>
 
-                        <div
-                            onClick={handleToggler}
-                            className="text-4xl bg-skillBackground border-1 fixed right-1 z-20">
-
-                            {theme === "dark" ? <MdLightMode className="text-textWhite" /> : <MdDarkMode className="text-bgBlack" />}
 
 
-                        </div>
-
-                        {/* </div> */}
-
-
-
-
-
+                        
                         {/* Theme changer */}
 
                         {/* <div className={`flex p-1  gap-4 fixed right-3 z-20 transition-transform duration-700 ${open ? "translate-x-0" : "translate-x-2"}`}>
