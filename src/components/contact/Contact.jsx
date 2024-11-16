@@ -1,6 +1,6 @@
 import React from "react";
 import { facebook, instagram, github, linkdin } from "../../imagess/images";
-import ContactForm from "./contactForm";
+import ContactForm from "./ContactForm";
 
 const Contact = () => {
 
