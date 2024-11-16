@@ -19,8 +19,13 @@ import { MdLightMode } from "react-icons/md";
 import { MdDarkMode } from "react-icons/md";
 import { FaCog } from "react-icons/fa";
 import { FcSettings } from "react-icons/fc";
+import { FaHome } from "react-icons/fa";
+import { IoPersonSharp } from "react-icons/io5";
+import { FaClipboardList } from "react-icons/fa";
+import { FaFileAlt } from "react-icons/fa";
+import { MdContactPhone } from "react-icons/md";
 
 
 export {motion,TbBrandCpp,FaCss3Alt,FaHtml5,FaPython,FaJsSquare,FaReact,RiTailwindCssFill,TbHexagonLetterCFilled,FaNode , 
-    FaGithub,FaLinkedin,FaFacebookSquare,BsInstagram,FaTelegram,FaNodeJs,DiMongodb,MdLightMode,MdDarkMode,FaCog,FcSettings
+    FaGithub,FaLinkedin,FaFacebookSquare,BsInstagram,FaTelegram,FaNodeJs,DiMongodb,MdLightMode,MdDarkMode,FaCog,FcSettings,FaHome,IoPersonSharp,FaClipboardList,FaFileAlt,MdContactPhone
 }

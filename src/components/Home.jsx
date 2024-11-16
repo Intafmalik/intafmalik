@@ -1,10 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { FaGithub, FaLinkedin, FaFacebookSquare, BsInstagram, FaTelegram, FaNodeJs, DiMongodb, FaReact, RiTailwindCssFill, MdLightMode, MdDarkMode, FaCog,FcSettings } from "../icons/icon"
+import { FaGithub, FaLinkedin, FaFacebookSquare, BsInstagram, FaTelegram, FaNodeJs, DiMongodb, FaReact, RiTailwindCssFill, MdLightMode, MdDarkMode, FaCog, FcSettings } from "../icons/icon"
 import { portFolio } from "../imagess/images";
 import { ReactTyped } from "react-typed";
 import { Link } from 'react-scroll';
-
-import "./Home.css"
 
 const getInitialDarkMode = () => localStorage.getItem("theme") || "dark"
 const getInitialPrimaryColor = () => localStorage.getItem("primaryColor" || "blue")
@@ -99,7 +97,7 @@ const Home = () => {
 
                         {/* Introduction */}
 
-                        <div className="md:w-11/12 w-full flex flex-col justify-center items-start  gap-4 p-5
+                        <div className="md:w-11/12 w-full flex flex-col justify-center items-start mt-5 gap-4 p-5
                         text-textblack700 dark:text-textColor">
                             <h3 className="font-semibold md:text-3xl relative top-4 text-xl text-primaryColor ">
                                 {" "}
@@ -125,37 +123,27 @@ const Home = () => {
                                 </span>
                             </h2>
                             <p className="font-medium text-semibold text-start">
-                                {/* I'm a passionate software engineer specialized in crafting
-              efficient and scalable solutions, deliver top-notch web
-              applications, and provide freelance services that exceed client
-              expectations. Let's connect and create something amazing together! */}
-
+                               
                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, recusandae consequatur. Accusamus sint libero eligendi laborum fuga repudiandae? Asperiores tempore eos animi dolores corrupti! Sint quos, mollitia architecto aliquam nesciunt, optio cum delectus sit voluptatum aut ratione quaerat veniam aperiam!
                             </p>
 
                             <div className="w-full flex md:flex-row flex-col md:gap-1 gap-3 items-center justify-around p-2 ">
 
-                            <Link
-                                            activeClass="text-primaryColor"
-                                            to={"Resume"}
-                                            spy="true"
-                                            offset={-70}
-                                            onSetActive={(id) => console.log(`${id} is active`)}
-                                            smooth={true}
-                                            duration={400}
-                                        // delay={200}
-                                        >
-                                             <button
-                                 className="button">
-                                    Check Resume
-                                </button>
-
-
-                                        </Link>
-                                {/* <button
-                                 className="button">
-                                    Check Resume
-                                </button> */}
+                                <Link
+                                    activeClass="text-primaryColor"
+                                    to={"Resume"}
+                                    spy="true"
+                                    offset={-70}
+                                    onSetActive={(id) => console.log(`${id} is active`)}
+                                    smooth={true}
+                                    duration={400}
+                                // delay={200}
+                                >
+                                    <button
+                                        className="button">
+                                        Check Resume
+                                    </button>
+                                </Link>
 
                                 <div>
                                     <h2 className="p-1 mb-2 font-bold md:text-2xl text-mediun text-textblack900 dark:text-white ">
@@ -175,90 +163,25 @@ const Home = () => {
 
                     {/* images  */}
 
-                    
-
                     <div className=" w-full flex  md:w-2/5 md:mt-2  mt-12 -ml-2 ">
 
-                        {/* <div className="imageDiv md:mt-10 md:ml-7">
-                            <img src={portFolio} alt="PP img" className="brightness-50 rounded-full hover:brightness-100 transition focus:brightness-100 active:brightness-100 ease-in-out duration-300" />
+                        <div className="imageDiv md:mt-7 md:ml-7 ">
+                            <div className="flex items-center justify-center h-[90%] w-auto relative ">
 
-                        </div> */}
+                                <div className="absolute h-[4.5rem] w-[4.5rem] left-8 -top-7 md:-left-[10px]  md:-top-6 border-[8px] border-t-primaryColor border-l-primaryColor border-r-0 border-b-0"></div>
 
+                                <img src={portFolio} alt="PP img" className="brightness-100  w-[65%] h-[100%] md:w-[90%] rounded-xl items-center hover:brightness-100 transition focus:brightness-100 active:brightness-100 ease-in-out duration-300" />
 
-                        <div className="imageDiv md:mt-10 md:ml-7 ">
-                            <div className="flex items-center justify-center h-full relative ">
-                                <div className="absolute h-[5rem] w-[5rem] left-8 -top-10 md:left-2  md:-top-3 border-[10px] border-t-primaryColor border-l-primaryColor border-r-0 border-b-0"></div>
-                                <img src={portFolio} alt="PP img" className="brightness-100 w-[65%] h-[110%] md:w-[75%]  md:h-[90%] items-center hover:brightness-100 transition focus:brightness-100 active:brightness-100 ease-in-out duration-300" />
-                                <div className="absolute h-[5rem] w-[5rem] right-8 -bottom-10  md:right-2  md:-bottom-3 border-[10px] border-b-primaryColor border-r-primaryColor border-t-0 border-l-0"></div>
+                                <div className="absolute h-[4.5rem] w-[4.5rem] right-8 -bottom-7  md:-right-[10px]  md:-bottom-6 border-[8px] border-b-primaryColor border-r-primaryColor border-t-0 border-l-0"></div>
                             </div>
 
                         </div>
 
 
-
-                        
                         {/* Theme changer */}
 
-                        {/* <div className={`flex p-1  gap-4 fixed right-3 z-20 transition-transform duration-700 ${open ? "translate-x-0" : "translate-x-2"}`}>
-
-                                <div className="flex flex-col gap-3 ">
-                                    <div className={`bg-skillBackground flex rounded-md p-1 items-center justify-center ${theme === "dark" ? "text-textWhite" : "text-bgBlack"}`}
-                                        onClick={handleThemeBTN}
-                                    >
-                                        <FaCog className="animate-spinSlow " size={35} />
-                                    </div>
-                                    <div
-                                        onClick={handleToggler}
-                                        className="text-4xl rounded-md bg-skillBackground p-1">
-
-                                        {theme === "dark" ?
-                                            <MdLightMode className=" text-textWhite" />
-                                            :
-                                            <MdDarkMode className="  text-bgBlack" />
-                                        }
-                                    </div>
-                                </div>
-                                {open &&
-
-                                    <div className={`space-y-2 -mt-1 w-fit rounded-lg p-2 ${open ?"scale-100 opacity-100 translate-y-0":"scale-95 opacity-0 -translate-y-4" } ${theme === "dark" ? "bg-bgBlack text-textWhite" : "bg-bgblack50"}`}>
-                                        <h2>Theme Color</h2>
-                                        <div className="grid grid-cols-3 gap-2">
-
-
-                                            <button
-                                                className="text-xl border-2 border-sky-950 h-7 w-7 font-medium bg-redColor  rounded-full"
-                                                onClick={() => handleThemeChange('red') & setOpen(false)}
-                                            ></button>
-                                            <button
-                                                className="text-xl border-2 border-sky-950 h-7 w-7 font-medium bg-blue-700 rounded-full"
-                                                onClick={() => handleThemeChange('blue') & setOpen(false)}
-                                            ></button>
-                                            <button
-                                                className="text-xl border-2 border-sky-950 h-7 w-7 font-medium bg-[#00ff00]  rounded-full"
-                                                onClick={() => handleThemeChange('green') & setOpen(false)}
-                                            ></button>
-                                            <button
-                                                className="text-xl border-2 border-sky-950 h-7 w-7 font-medium bg-[#f700ff]  rounded-full"
-                                                onClick={() => handleThemeChange('purple') & setOpen(false)}
-                                            ></button>
-                                            <button
-                                                className="text-xl border-2 border-sky-950 h-7 w-7 font-medium bg-[#00f0ff] rounded-full"
-                                                onClick={() => handleThemeChange('aqua') & setOpen(false)}
-                                            ></button>
-                                            <button
-                                                className="text-xl border-2 border-sky-950 h-7 w-7 font-medium bg-[#fff700]  rounded-full"
-                                                onClick={() => handleThemeChange('yellow') & setOpen(false)}
-                                            ></button>
-
-
-                                        </div>
-                                    </div>}
-
-
-                            </div> */}
-
-                        <div className={`flex p-1 gap-4 fixed right-3 z-20 transition-transform duration-500 ease-out ${open ? "translate-x-0" : "translate-x-2"}`}>
-                            <div className="flex flex-col gap-3">
+                        <div className={`flex p-1 gap-4 fixed mt-8 right-3 z-30 transition-transform duration-500 ease-out ${open ? "translate-x-0" : "translate-x-2"}`}>
+                            <div className="flex flex-col gap-4">
                                 <div className={`bg-skillBackground flex rounded-md p-1 items-center justify-center cursor-pointer ${theme === "dark" ? "text-textWhite" : "text-bgBlack"}`}
                                     onClick={handleThemeBTN}
                                 >

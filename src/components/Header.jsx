@@ -4,34 +4,40 @@ import { LuMenuSquare } from "react-icons/lu";
 import { CgCloseR } from "react-icons/cg";
 import { useState } from "react";
 import { Link } from 'react-scroll';
+import { FaHome,IoPersonSharp,FaClipboardList,FaFileAlt,MdContactPhone } from '../icons/icon';
 
 const Header = () => {
     const [menu, setMenu] = useState(false)
     const navItem = [
         {
             id: 1,
-            text: "Home"
+            text: "Home",
+            icon:<FaHome/>
         },
         {
             id: 2,
-            text: "About"
+            text: "About",
+            icon:<IoPersonSharp/>
         },
         {
             id: 3,
-            text: "Projects"
+            text: "Projects",
+            icon:<FaClipboardList/>
         },
         {
             id: 4,
-            text: "Resume"
+            text: "Resume",
+            icon:<FaFileAlt/>
         },
         {
             id: 5,
-            text: "Contact"
+            text: "Contact",
+            icon:<MdContactPhone/>
         },
     ]
     return (
         <>
-            <nav className='max-w-screen shadow-[0px_10px_30px_-10px_#020c1b] border-b-textColorgray bg-bgblack100 text-textblack900 dark:bg-bgColor  dark:text-textWhite md:px-10 py-1 px-5 sticky top-1 z-20'>
+            <nav className='max-w-screen shadow-[0px_10px_30px_-10px_#020c1b] border-b-textColorgray bg-bgblack100 text-textblack900 dark:bg-bgColor  dark:text-textWhite md:px-10 py-1 px-5 sticky top-0 z-30'>
                 <div className='flex items-center w-full justify-between  '>
                     <div className='flex align-center space-x-2 '>
                         <TbHexagonLetterM className='h-11 w-11 text-primaryColor border-solid  mt-1 ' />
@@ -43,9 +49,10 @@ const Header = () => {
                     <div>
                         <ul className='hidden sm:flex gap-10 font-medium align-center tracking-normal text-xl '>
                             {
-                                navItem.map(({ id, text }) => (
+                                navItem.map(({ id, text}) => (
                                     <li
                                      className='tracking-normal hover:text-primary-color cursor-pointer hover:scale-105 ease-in-out duration-200 active:text-primaryColor' key={id}>
+                                                                        
                                         <Link
                                             activeClass="text-primaryColor"
                                             to={text}
@@ -78,23 +85,27 @@ const Header = () => {
 
                     <div className='h-[80vh] flex  items-center w-full justify-center ' >
 
-                        <ul className='flex flex-col gap-8  font-medium tracking-normal text-textblack900 dark:text-textWhite text-xl '>
+                        <ul className='flex flex-col gap-5  font-medium tracking-normal text-textblack900 dark:text-textWhite text-xl '>
 
                             {
-                                navItem.map(({ id, text }) => (
+                                navItem.map(({ id, text,icon }) => (
 
-                                    <li className='tracking-normal hover:text-primaryColor cursor-pointer hover:scale-105 ease-in-out duration-200' key={id}>
+                                    <li className='tracking-normal border  border-t-0 border-l-0 border-r-0 border-b-primaryColor border-opacity-75 p-2 text-2xl font-bold hover:text-primaryColor cursor-pointer hover:scale-105 ease-in-out duration-200' key={id}>
+                                
                                         <Link
                                             onClick={() => setMenu(!menu)}
-                                            activeClass="active"
+                                            activeClass="active text-primaryColor"
                                             to={text}
                                             spy="true"
                                             offset={-70}
                                             smooth={true}
                                             duration={400}
+                                            className='flex items-center gap-2'
                                         // delay={200}
                                         >
-                                            {text}
+
+                                            {icon} 
+                                            <span className='text-xl font-medium active:text-primaryColor'>{text}</span>
                                         </Link>
                                     </li>
                                 ))
