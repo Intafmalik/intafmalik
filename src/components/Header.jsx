@@ -100,7 +100,7 @@ const Header = () => {
                                             offset={-70}
                                             smooth={true}
                                             duration={400}
-                                            className='flex items-center gap-2'
+                                            className='flex items-center gap-4 text-center'
                                         // delay={200}
                                         >
 
