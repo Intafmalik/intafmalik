@@ -7,7 +7,7 @@ const About = () => {
         <>
             <div
                 id="About"
-                className='w-full md:px-10 px-5 bg-bgblack900 border-b-black dark:bg-bgColor border dark:border-b-textColorgray'>
+                className='w-full md:px-10 px-5 pagediv '>
                 <div className='py-5'>
                     <h1 className='text-center p-1 text-primaryColor md:font-bold font-semibold mb-1 md:text-4xl  text-2xl'>About</h1>
                     <div
@@ -56,7 +56,6 @@ const About = () => {
                                 </button>
                             </Link>
                         </div>
-
                     </div>
                 </div>
             </div>

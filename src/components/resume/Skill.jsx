@@ -94,8 +94,6 @@ const Skill = () => {
                                         transition={{ duration: 0.5, delay: 0.5 }}
                                         style={{ width: `${res}%` }}
                                         className=' h-full bg-skillBackground rounded-md relative'>
-                                        {/* <span className='absolute -top-8 text-textColor right-4'>{res}%</span> */}
-
                                     </motion.span>
 
                                 </span>
@@ -132,9 +130,7 @@ const Skill = () => {
                                         transition={{ duration: 0.5, delay: 0.5 }}
                                         style={{ width: `${res}%` }}
                                         className=' h-full bg-skillBackground rounded-md relative'>
-                                        {/* className=' h-full bg-designColor to-redColor rounded-md relative'> */}
-                                        {/* <span className='absolute -top-8 text-textColor right-4'>{res}%</span> */}
-
+                                      
                                     </motion.span>
 
                                 </span>

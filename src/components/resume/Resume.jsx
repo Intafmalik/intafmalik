@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Experience from './Experience';
 import Education from './Education';
 import Skill from './Skill';
-// import Achivements from './Achivements';
 import Services from './Services';
 
 const Resume = () => {
@@ -10,14 +9,13 @@ const Resume = () => {
   const [experience, setExperience] = useState(false);
   const [skill, setSkill] = useState(false);
   const [services, setServices] = useState(false)
-  // const [achivements, setAchivements] = useState(false);
 
 
   return (
     <>
     <div
       id="Resume"
-      className='w-full md:px-10 px-5 py-4 dark:bg-bgColor border bg-bgblack900 dark:border-b-textColorgray border-b-black'
+      className='w-full md:px-10 px-5 py-4 pagediv'
     >
       <div className='flex justify-center items-center text-center'>
         <h1 className='text-4xl md:text-4xl text-textblack900 dark:text-textWhite font-bold tracking-wide'>
@@ -30,7 +28,6 @@ const Resume = () => {
             onClick={() => {
               setEducation(true);
               setSkill(false);
-              // setAchivements(false);
               setServices(false);
               setExperience(false);
             }}
@@ -42,7 +39,6 @@ const Resume = () => {
             onClick={() => {
               setEducation(false);
               setSkill(true);
-              // setAchivements(false);
               setServices(false);
               setExperience(false);
             }}
@@ -54,7 +50,6 @@ const Resume = () => {
             onClick={() => {
               setEducation(false);
               setSkill(false);
-              // setAchivements(false);
               setServices(false);
               setExperience(true);
             }}
@@ -67,7 +62,6 @@ const Resume = () => {
               setEducation(false);
               setSkill(false);
               setServices(true);
-              // setAchivements(true);
               setExperience(false);
             }}
             className={`${services ? " borderPrimaryColor rounded-xl" : "border-none"} resumeLi`}
@@ -82,9 +76,7 @@ const Resume = () => {
       {experience && <Experience />}
       {skill && <Skill />}
       {services && <Services />}
-      {/* {achivements && <Achivements />} */}
     </div>
-    <hr className='text-textColorgray'/>
     </>
   );
 };

@@ -65,7 +65,7 @@ const Home = () => {
         <>
             <div
                 id="Home"
-                className="w-full px-5 py-4 border bg-bgblack900  dark:border-b-textColorgray border-b-black dark:bg-bgColor">
+                className="w-full px-5 py-4 pagediv">
                 <div className="flex md:flex-row flex-col-reverse py-5 md:px-10  gap-1">
 
                     <div className="w-full h-max md:w-3/5  flex gap-2">
@@ -213,13 +213,9 @@ const Home = () => {
                                 </div>
                             )}
                         </div>
-
-
                     </div>
                 </div>
             </div>
-            <hr className="text-textColorgray" />
-
         </>
     );
 };

@@ -90,7 +90,7 @@ const Projects = () => {
         <>
             <div
                 id="Projects"
-                className='w-full md:px-10 px-5 py-4  gap-1 bg-bgblack900 dark:bg-bgColor border border-b-textColorgray'
+                className='w-full md:px-10 px-5 py-4  gap-1 pagediv'
                 >
 
                 <h1 className='text-center p-1 text-primaryColor md:font-bold font-semibold mb-1 md:text-4xl  text-2xl'>Projects</h1>
@@ -108,8 +108,6 @@ const Projects = () => {
                                 <h3 className='text-textblack900 dark:text-textWhite text-xl font-semibold' >Language : <span className='text-primaryColor' >{language} </span></h3>
                                 <p className='line-clamp-2 text-[0.9rem] text-textblack700 dark:text-textColor w-full font-medium'>{subtittle}</p>
 
-                                {/* <button className='mt-3 text-primaryColor w-full h-fit border-2 outline-none text-xl rounded-xl p-1 hover:bg-blue-100'>Show More</button> */}
-
                                 <button
                                     className='bg-skillBackground text-white w-full h-fit rounded-md p-1'
 
@@ -118,8 +116,6 @@ const Projects = () => {
                                 >
                                     Show More..
                                 </button>
-
-
                             </div>
 
                         ))
@@ -128,7 +124,6 @@ const Projects = () => {
             </div>
             {/*  Modal Component */}
             <ModalCard project={selectedProject} handleCloseModal={handleCloseModal} showModal={showModal} />
-            {/* <hr className='text-textColorgray' /> */}
         </>
     )
 }

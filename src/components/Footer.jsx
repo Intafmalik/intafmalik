@@ -8,7 +8,7 @@ import { FaTelegram } from "react-icons/fa6";
 const Footer = () => {
     return (
         <div id="Home"
-            className="w-full flex items-center justify-center flex-col md:px-10  px-5 py-[4.3rem] gap-1 bg-bgblack900 dark:bg-bgColor dark:text-textWhite border border-b-textColorgray ">
+            className="w-full flex items-center justify-center flex-col md:px-10 px-5 py-[4.3rem] gap-1 dark:text-textWhite pagediv ">
             <div className='w-[50%] h-max text-center p-3 space-y-4'>
                 <h1 className='text-3xl font-bold text-primaryColor tracking-wide'>Malik Developer</h1>
                 <p className='text-textblack700 dark:text-textColor font-medium '>ere are many types of simple footer html css, some just basic information, and some social icons. In some cases, there are links, posts, images, and information. If you want to make footers for news, magazines, or other types of sites, then you can see another design made by me.</p>
@@ -42,9 +42,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className=' flex flex-col md:flex-row p-2 items-center justify-between gap-10 font-medium text-textblack900 dark:text-textColor '>
-            {/* <div> */}
              <h2 className=''>Copyright @2023 <span className='text-formBTNColor dark:bg-bgBlack'>Malikdeveloper</span></h2>
-             {/* </div> */}
              <div className='flex gap-2'>
                 <span>Home</span>
                 <span>About</span>
@@ -52,8 +50,6 @@ const Footer = () => {
                 <span>Blog</span>
              </div>
             </div>
-
-
         </div>
     )
 }

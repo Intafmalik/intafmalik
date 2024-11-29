@@ -8,7 +8,7 @@ const Contact = () => {
         <>
             <div
                 id="Contact"
-                className="w-full md:px-10  px-10 py-4 gap-1 bg-bgblack900 dark:bg-bgColor border border-b-black dark:border-b-textColorgray"
+                className="w-full md:px-10  px-10 py-4 gap-1 pagediv"
             >
                 <h1 className="text-center p-1 text-primaryColor md:font-bold font-semibold mb-1 md:text-4xl  text-2xl">
                     Contact Me
@@ -60,7 +60,6 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-            <hr className="text-textColorgray" />
         </>
     );
 };
