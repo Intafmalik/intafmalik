@@ -28,14 +28,14 @@ const About = () => {
                             <p className='font-medium'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi fuga nam temporibus rem fugiat iusto atque omnis nesciunt, eum facere, distinctio sint exercitationem itaque quaerat? Quae incidunt esse similique molestias.</p>
                             <div className='flex md:flex-row flex-col mt-5 gap-3  '>
                                 <div className='w-full md:w-1/2  flex flex-col items-start space-y-4 px-2 py-1 text-xl'>
-                                    <h2><span className=' text-textblack900 dark:text-textWhite text-xl font-bold tracking-wide '>Name : </span> Intaf Malik</h2>
-                                    <h2><span className=' text-textblack900 dark:text-textWhite text-xl font-bold tracking-wide '>Age : </span> 20</h2>
-                                    <h2><span className=' text-textblack900 dark:text-textWhite text-xl font-bold tracking-wide '>BirthDay : </span>Oct 22, 2002</h2>
-                                    <h2><span className=' text-textblack900 dark:text-textWhite text-xl font-bold tracking-wide '>Adderess : </span>Devdaha 12 Rupandehi</h2>
+                                    <h2><span className=' text-textblack900 dark:text-textWhite text-xl font-bold tracking-wide '>Name : </span>Lorem Lorem</h2>
+                                    <h2><span className=' text-textblack900 dark:text-textWhite text-xl font-bold tracking-wide '>Age : </span> 10</h2>
+                                    <h2><span className=' text-textblack900 dark:text-textWhite text-xl font-bold tracking-wide '>BirthDay : </span>Oct 22</h2>
+                                    <h2><span className=' text-textblack900 dark:text-textWhite text-xl font-bold tracking-wide '>Adderess : </span>Lorem Lorem</h2>
                                 </div>
                                 <div className='w-full md:w-1/2  flex flex-col items-start space-y-4 px-2 py-1 text-xl'>
-                                    <h2><span className=' text-textblack900 dark:text-textWhite text-xl font-bold tracking-wide '>Phone No : </span>9816427928</h2>
-                                    <h2><span className=' text-textblack900 dark:text-textWhite text-xl font-bold tracking-wide '>Email : </span>intafmalik731@gmail.com</h2>
+                                    <h2><span className=' text-textblack900 dark:text-textWhite text-xl font-bold tracking-wide '>Phone No : </span>1234567890</h2>
+                                    <h2><span className=' text-textblack900 dark:text-textWhite text-xl font-bold tracking-wide '>Email : </span>test@gmail.com</h2>
                                     <h2><span className=' text-textblack900 dark:text-textWhite text-xl font-bold tracking-wide '>Profession : </span>Students</h2>
                                     <h2><span className=' text-textblack900 dark:text-textWhite text-xl font-bold tracking-wide '>Service : </span>Developer</h2>
                                 </div>
