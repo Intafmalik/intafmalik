@@ -40,7 +40,7 @@ const Experience = () => {
                       title="Web Developement"
                        subTitle="front-end developer"
                        result="65%"
-                        des="I have taken web development training from the ACESS community, where I gained foundational knowledge and practical skills in HTML, CSS, JavaScript, and front-end development. This training has equipped me with the tools to build responsive and interactive websites, and has further strengthened my passion for web development." />
+                        des="I completed web development training with the ACESS community, gaining foundational skills in HTML, CSS, JavaScript, and front-end development. This training equipped me to build responsive, interactive websites and deepened my passion for web development." />
                     {/* <ResumeCard
                        title="Lorem ipsum dolor sit."
                      subTitle="Lorem ipsum dolor (2010-2020)"
