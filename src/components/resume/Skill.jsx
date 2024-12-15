@@ -109,7 +109,7 @@ const Skill = () => {
 
                 <div className='py-10 font-bold space-y-4'>
                     <p className='text-sm text-primaryColor tracking-[4px] '>Language</p>
-                    <h2 className='text-xl  text-textblack900 dark:text-textWhite  tracking-wide'>DevelopMent Skill</h2>
+                    <h2 className='text-xl  text-textblack900 dark:text-textWhite  tracking-wide'>Development Skill</h2>
                 </div>
                 <div className='flex flex-col'>
                     {

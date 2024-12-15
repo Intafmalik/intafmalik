@@ -23,7 +23,7 @@ const About = () => {
                         {/* Right Box */}
                         <div className='w-full md:w-3/5 px-8 py-3 text-textblack700 dark:text-textColor'>
                             <h1 className=' text-2xl font-semibold tracking-wider dark:text-textWhite text-textblack900'><span className='md:text-4xl text-xl font-bold text-primaryColor'>B</span>iograpghy</h1>
-                            <p className='mt-5 text-left'>Hi, I'm [Your Name], a passionate web developer and programmer specializing in crafting efficient, optimized, and user-friendly solutions. With a strong focus on front-end development, I build responsive and visually appealing web applications designed to deliver exceptional user experiences. My goal is to combine technical expertise with creativity to create meaningful and impactful digital solutions.</p>
+                            <p className='mt-5 text-left'>Hi, I'm intaf malik, a passionate web developer and programmer specializing in crafting efficient, optimized, and user-friendly solutions. With a strong focus on front-end development, I build responsive and visually appealing web applications designed to deliver exceptional user experiences. My goal is to combine technical expertise with creativity to create meaningful and impactful digital solutions.</p>
                             <br />
                             {/* <br/> */}
                             <p className='font-medium'>Beyond coding, I thrive on collaboration—whether it's working closely with clients to bring their ideas to life or teaming up with professionals to tackle challenging projects. I believe in exceeding expectations and delivering results that stand out. Let’s connect and create something amazing together!</p>

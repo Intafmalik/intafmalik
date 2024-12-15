@@ -17,12 +17,12 @@ const Experience = () => {
                       title="Web Develpement"
                        subTitle="Front-End Development"
                        result="60%"
-                        des="As a beginner in front-end development, I have worked on various personal projects such as building landing pages, creating interactive to-do lists, and developing classic games like Tic-Tac-Toe. While I have not yet worked at a company, these projects have allowed me to strengthen my skills in HTML, CSS, and JavaScript. I focus on creating responsive, user-friendly interfaces and am eager to continue learning and improving my abilities in web development." />
+                        des="As a beginner in front-end development, I’ve built projects like landing pages, to-do lists, and Tic-Tac-Toe, enhancing my HTML, CSS, and JavaScript skills. I focus on creating responsive interfaces and am eager to keep learning." />
                     <ResumeCard
                        title="Management System Software"
                      subTitle="Developing System Software"
                      result="70%"
-                        des="I have developed a management system using C and C++, where I implemented features such as data storage, retrieval, and manipulation. The system includes functionalities for managing and processing information efficiently, demonstrating my understanding of object-oriented programming, file handling, and data structures. This project showcases my ability to create reliable and scalable applications while working with low-level programming concepts." />
+                        des="I developed a management system using C and C++, focusing on data storage, retrieval, and manipulation, demonstrating my skills in object-oriented programming and data structures." />
                     {/* <ResumeCard
                         title="Lorem ipsum dolor sit."
                        subTitle="Lorem ipsum dolor (2010-2020)"
