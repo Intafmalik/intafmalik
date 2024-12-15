@@ -20,7 +20,7 @@ const ModalCard = ({ showModal, project, handleCloseModal }) => {
       <div className='fixed inset-0 bg-bgModal bg-opacity-80 z-60'>
       </div>
 
-      <div className='fixed  top-28 left-10 rounded-2xl md:top-24 md:left-36 md:w-[80%]  w-[75%] max-h-[80vh]  overflow-y-auto border bg-bgblack900 dark:bg-bgColor bg-opacity-100 z-10 p-4 flex flex-col border-primaryColor shadow-[0_0px_15px_-1px_#02ff02]' >
+      <div className={`fixed  top-28 left-10 rounded-2xl md:top-24 md:left-36 md:w-[80%]  w-[75%] max-h-[80vh]  overflow-y-auto bg-bgblack900 dark:bg-bgColor bg-opacity-100 z-10 p-4 flex flex-col  border-primaryColor shadow-[0_0px_15px_-1px_var(--primary-color)]`} >
 
         <div onClick={handleCloseModal} className='absolute top-0 cursor-pointer right-1'>
           <RxCrossCircled className=' text-5xl text-redColor hover:scale-105 transition duration-200 font-bold' />
@@ -31,7 +31,7 @@ const ModalCard = ({ showModal, project, handleCloseModal }) => {
 
         <div className='md:overflow-y-auto p-5 mt-1 flex flex-col gap-6 '>
           <div>
-            <img src={project.image} className='object-cover w-[100%] h-[80%] rounded-2xl shadow-[0_0px_15px_-1px_#02ff02]' />
+            <img src={project.image} className='object-cover w-[100%] h-[80%] rounded-2xl shadow-md' />
           </div>
           <h3 className='text-xl font-semibold tracking-wide text-textblack900 dark:text-textWhite' >Language : <span className='text-primaryColor' >{project.language}</span></h3>
           <p className='text-textblack700 dark:text-textColor font-medium text-left '><span className='text-xl font-semibold tracking-wide text-textblack900 dark:text-textWhite'>Description : </span> {project.subtittle}</p>

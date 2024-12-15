@@ -16,7 +16,7 @@ const Projects = () => {
             title: "Calculator",
             language: "HTML, CSS, JS",
             url:"https://github.com/Intafmalik/Calculator",
-            subtittle: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non  amet consectetur adipisicing elit. Non ipsam veniam ullam magni rerum, vitae laudantium?",
+            subtittle: "Build a functional calculator with HTML, CSS, and JavaScript, featuring a user-friendly design and basic arithmetic operations like addition, subtraction, multiplication, and division.",
         },
         {
             id: 2,
@@ -24,7 +24,7 @@ const Projects = () => {
             title: "Netflix Clone",
             language: "HTML, CSS, JS",
             url:"https://github.com/Intafmalik/Netflix-Clone",
-            subtittle: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non  amet consectetur adipisicing elit. Non ipsam veniam ullam magni rerum, vitae laudantium?"
+            subtittle: "Create a Netflix clone using HTML, CSS, and JavaScript, featuring a sleek UI, responsive design, and dynamic content rendering for an immersive streaming experience."
         },
         {
             id: 3,
@@ -32,7 +32,7 @@ const Projects = () => {
             image: quizImg,
             title: "Quiz Game",
             language: "HTML, CSS, JS",
-            subtittle: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non  amet consectetur adipisicing elit. Non ipsam veniam ullam magni rerum, vitae laudantium?"
+            subtittle: "Develop a quiz app with HTML, CSS, and JavaScript, featuring an interactive UI, dynamic questions, and real-time score tracking for an engaging user experience."
         },
         {
             id: 4,
@@ -40,7 +40,7 @@ const Projects = () => {
             image: snakeImg,
             title: "Snake Game",
             language: "C",
-            subtittle: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non  amet consectetur adipisicing elit. Non ipsam veniam ullam magni rerum, vitae laudantium?"
+            subtittle: "Develop a Snake game using C, featuring a console-based interface with dynamic snake movement, food generation, and collision detection. The game includes multiple life and a user registration system to save high scores and track progress."
         },
         {
             id: 5,
@@ -48,7 +48,7 @@ const Projects = () => {
             image: oopProject,
             title: "Student management system",
             language: "C++",
-            subtittle: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non  amet consectetur adipisicing elit. Non ipsam veniam ullam magni rerum, vitae laudantium?"
+            subtittle: "Create a student details management system using Object-Oriented Programming (OOP) in C++, where student information such as name, roll number, and grades are stored in objects. The system allows for adding, updating, and displaying student details, demonstrating the use of classes, objects, constructors, and methods to manage data efficiently."
         },
         {
             id: 6,
@@ -56,7 +56,7 @@ const Projects = () => {
             image: ticTacToe,
             title: "Tic Tac Toe",
             language: "React JS",
-            subtittle: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non  amet consectetur adipisicing elit. Non ipsam veniam ullam magni rerum, vitae laudantium?"
+            subtittle: "Build a Tic-Tac-Toe game using React and Vite, featuring a responsive user interface, real-time gameplay, and a simple game logic that allows two players to take turns and check for a winner. This project demonstrates React's component-based architecture and Vite's fast development setup for a seamless user experience."
         },
         {
             id: 7,
@@ -64,7 +64,7 @@ const Projects = () => {
             image: weatherAPP,
             title: "Weather App",
             language: "React JS ",
-            subtittle: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non  amet consectetur adipisicing elit. Non ipsam veniam ullam magni rerum, vitae laudantium?"
+            subtittle: "Create a weather app using React, featuring real-time weather updates, user-friendly UI, and integration with a weather API to fetch data such as temperature, humidity, and forecast. This project demonstrates React's state management and asynchronous data fetching capabilities for an interactive and responsive weather experience."
         },
         {
             id: 8,
@@ -72,7 +72,7 @@ const Projects = () => {
             image: virtualr,
             title: "Virtualr Landing Page",
             language: "React JS ",
-            subtittle: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non  amet consectetur adipisicing elit. Non ipsam veniam ullam magni rerum, vitae laudantium?"
+            subtittle: "Build a landing page for 'Virtualr' using React and Tailwind CSS, featuring a modern and responsive design with sections for product features, testimonials, and a call-to-action. The page utilizes React's component-based architecture for reusable UI elements and Tailwind's utility-first styling for a clean and customizable layout."
         },
     ]
 
@@ -95,14 +95,13 @@ const Projects = () => {
 
                 <h1 className='text-center p-1 text-primaryColor md:font-bold font-semibold mb-1 md:text-4xl  text-2xl'>Projects</h1>
 
-                <div className='grid grid-cols-1 md:grid-cols-3 mb-4 gap-6 mt-12 ' >
+                <div className='grid grid-cols-1 md:grid-cols-3 mb-4 gap-6 px-2 mt-12 ' >
                     {
                         cardItem.map(({ id, image, title, language, subtittle,url }) => (
-                            <div className='border borderPrimaryColor rounded-3xl hover:shadow-[0_0px_13px_-1px_#02ff02] bg-bgblack100  dark:bg-bgColor px-3 py-2 text-left space-y-2 hover:scale-105 transition-all duration-300 ' key={id}>
+                            <div className='border borderPrimaryColor rounded-3xl  bg-bgblack100  dark:bg-bgColor px-3 py-2 text-left space-y-2 hover:shadow-shadowlight hover:scale-105 transition-all duration-300 ' key={id}>
                                 <div className=' flex items-center w-full h-60  justify-center'>
                                     <img src={image}
-                                        style={{ boxShadow: '2px 1px 10px 2px rgba(34, 197, 94, 0.7)' }}
-                                        className='w-[100%] h-[80%] object-cover rounded-2xl border-1 shadow-3xl shadow-custom border-green-300  ' />
+                                        className='w-[100%] h-[80%] object-cover rounded-2xl border-1 border-green-300  ' />
                                 </div>
                                 <h1 className='text-textblack900 dark:text-textWhite text-xl font-bold tracking-wide'>{title}</h1>
                                 <h3 className='text-textblack900 dark:text-textWhite text-xl font-semibold' >Language : <span className='text-primaryColor' >{language} </span></h3>

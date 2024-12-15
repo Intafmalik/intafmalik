@@ -28,9 +28,7 @@ const Contact = () => {
                         </h1>
                         <div className="text-textblack700 dark:text-textColor tracking-[2px]">
                             <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                accusamus odit neque fugiat expedita, obcaecati harum laudantium
-                                facere itaque nesciunt.
+                            Let’s collaborate to turn your ideas into reality. Together, we can create something amazing that exceeds expectations and delivers exceptional results!
                             </p>
                         </div>
                         <div className="flex items-center justify-start text-3xl gap-4">

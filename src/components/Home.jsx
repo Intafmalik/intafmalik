@@ -16,7 +16,7 @@ const Home = () => {
         { name: 'green', className: 'bg-[#00ff00]' },
         { name: 'purple', className: 'bg-[#f700ff]' },
         { name: 'aqua', className: 'bg-[#00f0ff]' },
-        { name: 'yellow', className: 'bg-[#fff700]' }
+        { name: 'orange', className: 'bg-[#FF4D00]' }
     ];
 
     const [theme, setTheme] = useState(getInitialDarkMode)
@@ -122,9 +122,8 @@ const Home = () => {
                                     }
                                 </span>
                             </h2>
-                            <p className="font-medium text-semibold text-start">
-                               
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, recusandae consequatur. Accusamus sint libero eligendi laborum fuga repudiandae? Asperiores tempore eos animi dolores corrupti! Sint quos, mollitia architecto aliquam nesciunt, optio cum delectus sit voluptatum aut ratione quaerat veniam aperiam!
+                            <p className="font-medium text-semibold tracking-normal text-start">
+                                I'm a passionate web developer and programmer specializing in crafting efficient, optimized solutions. I deliver high-quality front-end web applications and provide developer services that consistently exceed client expectations. Let's connect and create something amazing together!
                             </p>
 
                             <div className="w-full flex md:flex-row flex-col md:gap-1 gap-3 items-center justify-around p-2 ">

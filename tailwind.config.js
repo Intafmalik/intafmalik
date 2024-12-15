@@ -23,7 +23,8 @@ export default {
         hoverCSS:"#c8c8c8",
         blueColor:"#0000FF",
         bgModal:"#010102",
-        redColor:"#ff0000",
+        redColor:"#ff014f",
+        // redColor:"#FF0000",
         formBTNColor:"#071b6b",
         bodyColor:"#212428",
         lightText:"#c4cfde",
@@ -51,8 +52,9 @@ export default {
         spinSlow: 'spin 2s linear infinite',
       },
       boxShadow: {
-        shadowOne: "10px 10px 19px #1c1e22, -10px -10px 19px #262a2e",
-        shadowlight: "0px 0px 15px #2a2d31, 0px 0px 3px #32363a",
+        shadowOne: "10px 10px 19px #1c1e22,-10px -10px 19px #262a2e",
+        shadowlight: "0px 0px 8px #aeb3b3, 0px 0px 0px #32363a",
+        // shadowlight: "0px 0px 15px #2a2d31, 0px 0px 3px #32363a",
       },
     },
   },
@@ -60,7 +62,7 @@ export default {
     require('@tailwindcss/line-clamp'),
     createThemes({
       red:{
-        primary:'#ff0000'
+        primary:'#FF0000'
       },
       green:{
         primary:'#00ff00'
@@ -74,8 +76,8 @@ export default {
       aqua:{
         primary:' #00f0ff '
       },
-      yellow:{
-        primary:' #fff700 '
+      orange:{
+        primary:' #FF4D00 '
       }
     })
   ],

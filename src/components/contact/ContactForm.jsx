@@ -40,11 +40,11 @@ const ContactForm = () => {
                 onSubmit={handleSubmit(onSubmit)}
                 // method="POST"
                 // action="https:// className="text-redColor text-sm pl-2" g* etform.io/f/awngxdlb"
-                className="px-4 w-[85%] bg-bgblack100 bg-opacity-50 hover:bg-opacity-100 dark:bg-bgBlack dark:bg-opacity-10 p-4  dark:hover:bg-opacity-60 duration-300 mx-6 shadow-shadowlight dark:shadow-shadowOne rounded-xl h-full py-3 ">
-                <div className="flex flex-col w-full items-start gap-3
-                                text-textblack900 group-hover:text-textblack900 bg-opacity-0 hover:bg-opacity-100  dark:text-textColorgray dark:group-hover:text-textWhite duration-300">
+                className=" w-[85%] bg-bgblack100  bg-opacity-0 hover:bg-opacity-100 dark:bg-bgBlack dark:bg-opacity-10 p-4  dark:hover:bg-opacity-60 duration-300 mx-6 shadow-shadowlight dark:shadow-shadowOne rounded-xl h-full py-3   ">
+                <div className="flex flex-col w-full items-start  p-1 gap-3
+                                text-textblack900 group-hover:text-textblack900 bg-opacity-0 hover:bg-opacity-100 dark:text-bgblack900 dark:group-hover:text-textWhite duration-300">
 
-                    <div className="flex flex-col w-full md:flex-row items-center gap-5 ">
+                    <div className="flex flex-col w-full md:flex-row  items-center gap-5 ">
                         <div className="flex flex-col gap-1">
                             <label className="pl-2 ">First Name</label>
                             <input
@@ -52,7 +52,7 @@ const ContactForm = () => {
                                 name="firstName"
                                 type="text"
                                 placeholder="First Name"
-                                className="rounded-[10px]  outline-none text-[1.2rem] px-2 text-bgModal  h-10 bg-bgblack50  dark:bg-textColor  w-full"
+                                className="rounded-[10px] outline-none text-[1.2rem] px-2 text-bgModal  h-10 bg-bgblack900 border-2 dark:bg-slate-200  w-full"
                             />
                             {errors.firstName && <span className="text-redColor text-sm pl-2" >* This field is required</span>}
                         </div>
@@ -63,7 +63,7 @@ const ContactForm = () => {
                                 name="lastName"
                                 type="text"
                                 placeholder="Last Name"
-                                className="rounded-[10px] outline-none text-[1.2rem] px-2 text-bgModal  h-10 bg-bgblack50  dark:bg-textColor  w-full"
+                                className="rounded-[10px] outline-none text-[1.2rem] px-2 text-bgModal border-2 h-10 bg-bgblack900  dark:bg-slate-200  w-full"
                             />
                             {errors.lastName && <span className="text-redColor text-sm pl-2" >* This field is required</span>}
                         </div>
@@ -75,7 +75,7 @@ const ContactForm = () => {
                             name="email"
                             type="email"
                             placeholder="Email Address"
-                            className="rounded-[10px] outline-none text-[1.2rem] px-2 text-bgModal  h-10 bg-bgblack50  dark:bg-textColor w-full"
+                            className="rounded-[10px] outline-none text-[1.2rem] px-2 text-bgModal  h-10 bg-bgblack900 border-2  dark:bg-slate-200  w-full"
 
                         />
                         {errors.email && <span className="text-redColor text-sm pl-2" >* This field is required</span>}
@@ -87,7 +87,7 @@ const ContactForm = () => {
                             name="subject"
                             type="text"
                             placeholder="Subject"
-                            className="rounded-[10px] outline-none text-[1.2rem] px-2 text-bgModal  h-10 bg-bgblack50  dark:bg-textColorw-full"
+                            className="rounded-[10px] outline-none text-[1.2rem] px-2 text-bgModal  h-10 bg-bgblack900 border-2  dark:bg-slate-200 w-full"
 
                         />
                         {errors.subject && <span className="text-redColor text-sm pl-2" >* This field is required</span>}
@@ -98,7 +98,7 @@ const ContactForm = () => {
                             {...register("message", { required: true })}
                             name="message"
                             placeholder="Your Message"
-                            className="rounded-[10px] outline-none text-[1.2rem] px-2 text-bgModal  h-40 bg-bgblack50  dark:bg-textColorw-full"
+                            className="rounded-[10px] outline-none text-[1.2rem] px-2 text-bgModal  h-40 bg-bgblack900 border-2  dark:bg-slate-200 w-full"
                         />
                         {errors.message && <span className="text-redColor text-sm pl-2" >* This field is required</span>}
                     </div>

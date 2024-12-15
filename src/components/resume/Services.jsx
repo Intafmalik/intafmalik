@@ -14,11 +14,11 @@ const Services = () => {
            </div>
                <div className='mt-4 w-full h-[1000px] border-l-[6px] border-l-bgBlack border-opacity-30 flex flex-col gap-10' >
                    <ResumeCard
-                       title="Lorem ipsum dolor sit."
-                        subTitle="Lorem ipsum dolor (2010-2020)"
-                       result="3.2/4"
-                       des="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur quo praesentium doloribus architecto optio! At minima porro magnam quidem laboriosam?" />
-                   <ResumeCard
+                       title="Custom Management System Solutions."
+                        subTitle="Student, Bank, Library."
+                       result="-"
+                       des="I am providing services in building management systems such as student management, bank management, library management, and more. Using C and C++, I develop efficient and scalable systems that handle data storage, retrieval, and processing. These systems help organizations manage their operations effectively, and I focus on creating user-friendly interfaces and implementing reliable backend functionalities to meet client needs." />
+                   {/* <ResumeCard
                       title="Lorem ipsum dolor sit."
                         subTitle="Lorem ipsum dolor (2010-2020)"
                      result="3.2/4"
@@ -27,7 +27,7 @@ const Services = () => {
                      title="Lorem ipsum dolor sit."
                        subTitle="Lorem ipsum dolor (2010-2020)"
                       result="3.2/4"
-                       des="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur quo praesentium doloribus architecto optio! At minima porro magnam quidem laboriosam?" />
+                       des="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur quo praesentium doloribus architecto optio! At minima porro magnam quidem laboriosam?" /> */}
                </div></div>
            {/* right */}
            <div>
@@ -37,11 +37,11 @@ const Services = () => {
                </div>
                <div className='mt-4 w-full  h-[1000px] border-l-[6px] border-l-bgBlack border-opacity-30 flex flex-col gap-10' >
                    <ResumeCard
-                     title="Lorem ipsum dolor sit."
-                      subTitle="Lorem ipsum dolor (2010-2020)"
-                      result="3.2/4"
-                       des="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur quo praesentium doloribus architecto optio! At minima porro magnam quidem laboriosam?" />
-                   <ResumeCard
+                     title="Frontend Developer"
+                      subTitle="Building Responsive and Interactive Web Experiences"
+                      result="-"
+                       des="I offer frontend development services, specializing in creating responsive, user-friendly, and visually appealing web interfaces. Using HTML, CSS, and JavaScript, I build interactive web applications that provide seamless user experiences across devices and screen sizes." />
+                   {/* <ResumeCard
                       title="Lorem ipsum dolor sit."
                     subTitle="Lorem ipsum dolor (2010-2020)"
                     result="3.2/4"
@@ -50,7 +50,7 @@ const Services = () => {
                        title="Lorem ipsum dolor sit."
                       subTitle="Lorem ipsum dolor (2010-2020)"
                       result="3.2/4"
-                       des="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur quo praesentium doloribus architecto optio! At minima porro magnam quidem laboriosam?" />
+                       des="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur quo praesentium doloribus architecto optio! At minima porro magnam quidem laboriosam?" /> */}
                </div>
            </div>
        </motion.div>

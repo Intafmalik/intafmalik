@@ -26,8 +26,8 @@
   --primary-color: hsl(184, 100%, 50%);
   --secondary-color: blue;
 }
-[data-theme="yellow"] {
-  --primary-color: rgb(251, 255, 0);
+[data-theme="orange"] {
+  --primary-color: #FF4D00;
   --secondary-color: blue;
 }
 .text-primaryColor {

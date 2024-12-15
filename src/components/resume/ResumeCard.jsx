@@ -9,7 +9,7 @@ const ResumeCard = ({ title, subTitle, result, des }) => {
                     </span>
                 </span>
             </div>
-            <div className='w-full bg-bgblack100 bg-opacity-0 hover:bg-opacity-80 dark:bg-bgBlack dark:bg-opacity-20 p-4 dark:hover:bg-opacity-30  duration-300 rounded-lg flex flex-col justify-center gap-10 dark:shadow-shadowOne shadow-shadowlight'>
+            <div className='w-full bg-bgblack100 bg-opacity-0 group-hover:bg-bgblack100 group-hover:bg-opacity-100 hover:bg-opacity-80 dark:bg-bgBlack dark:bg-opacity-20 p-4 dark:hover:bg-opacity-30 dark:group-hover:bg-bgBlack duration-300 rounded-lg flex flex-col justify-center gap-10 dark:shadow-shadowOne shadow-shadowlight'>
                 <div className='flex justify-between items-center'>
                     <div>
                         <h3 className='text-2xl font-semibold text-textblack700 dark:text-textColorgray dark:group-hover:text-textWhite group-hover:text-textblack900 bg-opacity-15 duration-300'>{title}</h3>
@@ -18,10 +18,10 @@ const ResumeCard = ({ title, subTitle, result, des }) => {
                     </div>
                     <div>
                         <p
-                            className='w-20 h-10 text-designColor bg-bgblack50 dark:bg-bgBlack dark:bg-opacity-25 bg-opacity-50 rounded-lg flex items-center justify-center shadow-shadowlight dark:shadow-shadowOne text-sm font-medium'>{result}</p>
+                            className='w-20 h-10 text-designColor bg-bgblack50 group-hover:bg-bgblack100 dark:group-hover:bg-bgBlack dark:bg-bgBlack dark:bg-opacity-25 bg-opacity-50 rounded-lg flex items-center justify-center shadow-shadowlight dark:shadow-shadowOne text-sm font-medium'>{result}</p>
                     </div>
                 </div>
-                <p className='text-md font-medium text-textColorgray group-hover:text-textblack900 dark:text-textColor dark:group-hover:text-textWhite duration-300' >{des}</p>
+                <p className='text-md font-medium text-textColorgray group-hover:text-textblack900 dark:text-textColor dark:group-hover:text-textWhite duration-300' > {des}</p>
             </div>
 
         </div>
