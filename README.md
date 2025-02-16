@@ -1,7 +1,6 @@
 <h1 align="center">Hi 👋, I'm Intaf Malik</h1>
 <h3 align="center">A passionate frontend developer.</h3>
 
-<img align="center" alt="image" width="400" src="https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt9d411bdc693374d1/64f17d8e990fe3cdee178eb4/hacker_Pira25_shutterstock.jpg?width=1280&auto=webp&quality=95&format=jpg&disable=upscale">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=intafmalik&label=Profile%20views&color=0e75b6&style=flat" alt="intafmalik" /> </p>
 
