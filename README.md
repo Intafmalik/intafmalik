@@ -8,7 +8,7 @@
 
 - 🌱 I’m currently learning **nodejs , mysql, mongodb**
 
-- 👯 I’m looking to collaborate on [Algodocs](algodocs.dev)
+- 👯 I’m have collaboratd on [Algodocs](algodocs.dev)
 
 - 👨‍💻 All of my projects are available at [https://intafmalik.com.np/](https://intafmalik.com.np/)
 
