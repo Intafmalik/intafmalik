@@ -4,7 +4,6 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=intafmalik&label=Profile%20views&color=0e75b6&style=flat" alt="intafmalik" /> </p>
 
-- 🔭 I’m currently working on [cloning classyshop e-commerce](https://preview.themeforest.net/item/classyshop-premium-mega-store-prestashop-17-8x-responsive-theme/full_screen_preview/47471541?_ga=2.161698492.1299497312.1739563343-2114162964.1729242173)
 
 - 🌱 I’m currently learning **nodejs , mysql, mongodb**
 
