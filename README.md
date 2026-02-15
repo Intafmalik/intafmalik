@@ -43,7 +43,7 @@
 | Backend | Node.js, Express |
 | Database | MongoDB, MySQL |
 | Languages | JavaScript, Python, C, C++ |
-| Tools | Git, Postman |
+| Tools | Git/GitHub, Postman |
 
 </td>
 </tr>
