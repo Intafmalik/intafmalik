@@ -76,7 +76,7 @@ const intaf: Developer = {
   <img src="https://img.shields.io/badge/REST_API-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
 </p>
 
-### 📊 Data Science — ✅ Completed
+### 📊 Data Science —  Completed
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
@@ -130,7 +130,7 @@ const intaf: Developer = {
 
 ---
 
-## 💡 Dev Quote
+##  Dev Quote
 
 > *"Any fool can write code that a computer can understand.*
 > *Good programmers write code that humans can understand."*
